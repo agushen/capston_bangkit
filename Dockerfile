@@ -4,7 +4,7 @@ RUN apt update
 RUN apt install -y python3-dev gcc
 
 ADD requirements.txt requirements.txt
-ADD cls.h5 cls.h5
+ADD export.pkl export.pkl
 ADD app.py app.py
 
 # Install required libraries
